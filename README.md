@@ -1,15 +1,54 @@
-# BrincandoComPWA
-Verifique o app rodando  no Glitch: https://shimmer-echidna.glitch.me
-Veja o código fonte no Glitch: https://glitch.com/edit/#!/shimmer-echidna
+# Your First Progressive Web App Codelab
 
-O que é PWA (Progressive Web Apps)?	
+These are the resource files needed for the
+[Your First Progressive Web App][codelab] codelab.
 
-Apesar de recentes, os PWA (Progressive Web Apps) estão sendo rapidamente adotados pelo mercado. Um dos principais motivos é que essa tecnologia pode ser uma boa alternativa ao desenvolvimento de aplicativos nativos.
+In this codelab, you'll  build a weather web app using Progressive Web App
+techniques. Your app will:
 
-Dos apps existentes na App Store, apenas 40% deles foram baixados, e somente 25% dos que chegam aos celulares e tablets são usados.
+* Use responsive design, so it works on desktop or mobile.
+* Be fast & reliable, using a service worker to precache the app resources
+  (HTML, CSS, JavaScript, images) needed to run, and cache the weather data
+  at runtime to improve performance.
+* Be installable, using a web app manifest and the `beforeinstallprompt` event
+  to notify the user it's installable.
 
-Isso não quer dizer que os aplicativos não tenham mais espaço. Para muitos negócios os apps ainda fazem muito sentido.
 
-No entanto, construir um aplicativo muitas vezes é uma solução muito cara para determinadas iniciativas, e o PWA acaba sendo uma alternativa mais barata para lançar e testar produtos.
+## What you'll learn
 
-fonte: https://www.opus-software.com.br/o-que-e-pwa/
+* How to create and add a web app manifest
+* How to provide a simple offline experience
+* How to provide a full offline experience
+* How to make your app installable
+
+## Getting started
+
+To get started, check out the [codelab instruction][codelab]
+
+
+## Feedback
+
+This is a work in progress, if you find a mistake, please [file an issue][git-issue].
+
+
+## License
+
+Copyright 2019 Google, Inc.
+
+Licensed to the Apache Software Foundation (ASF) under one or more contributor
+license agreements. See the NOTICE file distributed with this work for
+additional information regarding copyright ownership. The ASF licenses this
+file to you under the Apache License, Version 2.0 (the “License”); you may not
+use this file except in compliance with the License. You may obtain a copy of
+the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+
+
+[codelab]: https://codelabs.developers.google.com/codelabs/your-first-pwapp/
+[git-issue]: https://github.com/googlecodelabs/your-first-pwapp/issues
